@@ -1,0 +1,66 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C70C0F78-CDB2-4C44-8BB5-825D458C071D}"
+	ProjectSection(SolutionItems) = preProject
+		Apps.Common.Caching.AzFunctions.tf = Apps.Common.Caching.AzFunctions.tf
+		Apps.Common.Caching.Redis.tf = Apps.Common.Caching.Redis.tf
+		Apps.FactoryEvents.EventHub.tf = Apps.FactoryEvents.EventHub.tf
+		Apps.LogicApps.HelperFunctions.tf = Apps.LogicApps.HelperFunctions.tf
+		Apps.Template.AzFunctions.tf = Apps.Template.AzFunctions.tf
+		Local.tfvars = Local.tfvars
+		Main.Backend.Dev.tf = Main.Backend.Dev.tf
+		Main.Backend.tftemp = Main.Backend.tftemp
+		Main.tf = Main.tf
+		Platform.APIM.DefaultNamedValues.tf = Platform.APIM.DefaultNamedValues.tf
+		Platform.APIM.tf = Platform.APIM.tf
+		Platform.AzFunctions.General.Hosting.tf = Platform.AzFunctions.General.Hosting.tf
+		Platform.EventHub.tf = Platform.EventHub.tf
+		Platform.LogAnalytics.tf = Platform.LogAnalytics.tf
+		Platform.ServiceBus.tf = Platform.ServiceBus.tf
+		Platform.Storage.tf = Platform.Storage.tf
+		Variables.tf = Variables.tf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Help", "Help", "{A2155DFE-10C6-461F-8DA9-68BA4746B9DF}"
+	ProjectSection(SolutionItems) = preProject
+		Help-Pipelines-Diagram.html = Help-Pipelines-Diagram.html
+		Help-Pipelines.md = Help-Pipelines.md
+		Help-Template-Instructions.md = Help-Template-Instructions.md
+		Help-Terraform-Functions.md = Help-Terraform-Functions.md
+		Help-Terraform.md = Help-Terraform.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{29BD9E77-CDB0-451E-BB96-FFDBC51ABEF0}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pipelines", "Pipelines", "{000E7FDE-38B3-4EA5-A8FB-3F4CD1995FCF}"
+	ProjectSection(SolutionItems) = preProject
+		pipeline-build.yaml = pipeline-build.yaml
+		pipeline-release-prod.yaml = pipeline-release-prod.yaml
+		pipeline-release-test.yaml = pipeline-release-test.yaml
+		pipeline-template-apply.yaml = pipeline-template-apply.yaml
+		pipeline-template-plan.yaml = pipeline-template-plan.yaml
+		pipeline-template-setup.yaml = pipeline-template-setup.yaml
+		pipeline-template-stages-deploy.yaml = pipeline-template-stages-deploy.yaml
+		pipeline-template-stages-plan.yaml = pipeline-template-stages-plan.yaml
+		pipeline-variables-common.yaml = pipeline-variables-common.yaml
+		Setup-AzureDevops-CreatePipelines.ps1 = Setup-AzureDevops-CreatePipelines.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2155DFE-10C6-461F-8DA9-68BA4746B9DF} = {C70C0F78-CDB2-4C44-8BB5-825D458C071D}
+		{29BD9E77-CDB0-451E-BB96-FFDBC51ABEF0} = {C70C0F78-CDB2-4C44-8BB5-825D458C071D}
+		{000E7FDE-38B3-4EA5-A8FB-3F4CD1995FCF} = {C70C0F78-CDB2-4C44-8BB5-825D458C071D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9537D610-0AAA-4713-A389-A5BE215609B4}
+	EndGlobalSection
+EndGlobal

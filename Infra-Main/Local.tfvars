@@ -1,0 +1,8 @@
+general_prefix_lowercase="ipb"
+general_prefix_uppercase="IPB"
+eai_resource_group="Environments-Dev"
+environment_name_lowercase="dev"
+environment_name_normalcase="Dev"
+environment_name_uppercase="DEV"
+eai_keyvault_name="IPB-Samples-KV-Dev"
+eai_keyvault_resourcegroup_name="DevOps"
