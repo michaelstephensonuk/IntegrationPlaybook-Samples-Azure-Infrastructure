@@ -1,0 +1,1 @@
+This solution is a very basic intro to terraform to do some basic things with terraform and azure.
