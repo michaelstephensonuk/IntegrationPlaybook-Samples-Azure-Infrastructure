@@ -6,7 +6,7 @@ resource "azurerm_function_app" "common_cachehelper" {
   app_service_plan_id           = azurerm_app_service_plan.platform_azfunctions_general_hosting.id
   storage_account_name          = azurerm_storage_account.platform_azfunctions_general_storage.name
   storage_account_access_key    = azurerm_storage_account.platform_azfunctions_general_storage.primary_access_key
-  https_only		            = true
+  https_only		            = false
   version                       = "~3"
 
   site_config {    

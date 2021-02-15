@@ -16,9 +16,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Platform.APIM.DefaultNamedValues.tf = Platform.APIM.DefaultNamedValues.tf
 		Platform.APIM.tf = Platform.APIM.tf
 		Platform.AzFunctions.General.Hosting.tf = Platform.AzFunctions.General.Hosting.tf
+		Platform.CosmosDB.tf = Platform.CosmosDB.tf
+		Platform.EventGrid.tf = Platform.EventGrid.tf
 		Platform.EventHub.tf = Platform.EventHub.tf
+		Platform.Frontdoor.tf = Platform.Frontdoor.tf
 		Platform.LogAnalytics.tf = Platform.LogAnalytics.tf
+		Platform.LogicApps.IntegrationAccount.temp = Platform.LogicApps.IntegrationAccount.temp
 		Platform.ServiceBus.tf = Platform.ServiceBus.tf
+		Platform.SQLDB.tf = Platform.SQLDB.tf
 		Platform.Storage.tf = Platform.Storage.tf
 		Variables.tf = Variables.tf
 	EndProjectSection
